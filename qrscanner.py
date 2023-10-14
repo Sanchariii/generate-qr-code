@@ -4,7 +4,7 @@ from PIL import Image
 
 
 # create or make
-a = pyqrcode.create("https://www.simplilearn.com/")
+a = pyqrcode.create("https://www.google.com/")
 a.png("my.png", scale = 8)
 
 b = decode(Image.open("my.png"))
